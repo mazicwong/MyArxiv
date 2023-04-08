@@ -1,9 +1,11 @@
 let titles_type = ["Dataset", "Survey", "Review", "Overview"];
 let titles_model = ["BERT", "GPT", "Transformer",
-                    "ChatGPT", "ChatGLM", "DynaBERT", "GPT3.5", "GPT4"];
-let titles_method = ["Pre-train", "Pretrain", "Prompt", "Self-Supervised",
+                    "ChatGPT", "ChatGLM", "DynaBERT", "GPT3.5", "GPT4", "Language Model", "LLM"];
+let titles_method = ["Pre-train", "Pretrain", "Pretrained", "Prompt", "Self-Supervised",
                      "Multi-modal", "Multimodal", "SLU", "Spoken Language Understanding", 
-                     "Sarcasm Detection", "Dialogue System", "KBQA", "Knowledge Graph"];
+                     "Sarcasm Detection", 
+                     "Dialogue System", "Dialogue", "Story", "KBQA", "KGQA", "Knowledge Graph",
+                     "Hugging", "Chinese"];
 let titles =  titles_model + titles_method + titles_type;
 let authors_array = ["Yann LeCun", "Geoffrey Hinton", "Yoshua Bengio",
                      "Zhilin Yang", "Danqi Chen", "Zhiqi Huang", "Lu Hou", "Haoli Bai", "Xiaoqi Jiao", "Milind Rao", "Anirudh Raju",
