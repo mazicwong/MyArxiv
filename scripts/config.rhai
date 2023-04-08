@@ -1,8 +1,14 @@
 let titles_type = ["Dataset", "Survey", "Review", "Overview"];
-let titles_model = ["BERT", "GPT", "Transformer"];
-let titles_method = ["Pre-train", "Pretrain", "Prompt", "Self-Supervised"];
+let titles_model = ["BERT", "GPT", "Transformer",
+                    "ChatGPT", "ChatGLM", "DynaBERT", "GPT3.5", "GPT4"];
+let titles_method = ["Pre-train", "Pretrain", "Prompt", "Self-Supervised",
+                     "Multi-modal", "Multimodal", "SLU", "Spoken Language Understanding", 
+                     "Sarcasm Detection", "Dialogue System", "KBQA", "Knowledge Graph"];
 let titles =  titles_model + titles_method + titles_type;
-let authors_array = ["Yann LeCun", "Geoffrey Hinton", "Yoshua Bengio"];
+let authors_array = ["Yann LeCun", "Geoffrey Hinton", "Yoshua Bengio",
+                     "Zhilin Yang", "Danqi Chen", "Zhiqi Huang", "Lu Hou", "Haoli Bai", "Xiaoqi Jiao", "Milind Rao", "Anirudh Raju",
+                     "Libo Qin", "Bowen Xing", "Zhihong Zhu", "Dongsheng Chen",
+                     "Min Yang", "Lidong Bing", "Ruifeng Xu", "Jie Tang", "Yuexian Zou"];
 
 let conferences = [
     // AI
@@ -18,11 +24,11 @@ let conferences = [
     // NLP
     "AACL", "ACL", "CCL", "COLING", "COLT", "CoNLL", "EACL", "EMNLP", "ICASSP", "ICDAR", "ICONIP", "INTERSPEECH", "LREC", "NAACL", "NLPCC", "RepL4NLP", "SIGDIAL", "SemEval", "WANLP", "WASSA", "WOAH",
     // Arch
-    "ASPLOS", "ATC", "DATE", "EuroSys", "FAST", "HPCA", "ISCA", "MICRO", "PPoPP", "SC", "SoCC",
+    //"ASPLOS", "ATC", "DATE", "EuroSys", "FAST", "HPCA", "ISCA", "MICRO", "PPoPP", "SC", "SoCC",
     // System
-    "FSE/ESEC", "ICSE", "ISSTA", "OSDI", "SOSP",
+    //"FSE/ESEC", "ICSE", "ISSTA", "OSDI", "SOSP",
     // Security
-    "ACSA", "AsiaCCS", "CCS", "DSN", "ESORICS", "EuroS&P", "ICICS", "NDSS", "RAID", "SP", "USENIX Security"
+    //"ACSA", "AsiaCCS", "CCS", "DSN", "ESORICS", "EuroS&P", "ICICS", "NDSS", "RAID", "SP", "USENIX Security"
 ];
 
 let start = conferences.shift();
