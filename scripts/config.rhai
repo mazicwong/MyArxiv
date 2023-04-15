@@ -8,9 +8,11 @@ let titles_method = ["Pre-train", "Pretrain", "Pretrained", "Prompt", "Self-Supe
                      "Hugging", "Chinese"];
 let titles =  titles_model + titles_method + titles_type;
 let authors_array = ["Yann LeCun", "Geoffrey Hinton", "Yoshua Bengio",
-                     "Zhilin Yang", "Danqi Chen", "Zhiqi Huang", "Lu Hou", "Haoli Bai", "Xiaoqi Jiao", "Milind Rao", "Anirudh Raju",
+                     "Zhilin Yang", "Danqi Chen", "Zhiqi Huang",
+                     "Lu Hou", "Haoli Bai", "Xiaoqi Jiao", "Qun Liu", "Lifeng Shang", "Milind Rao", "Anirudh Raju",
                      "Libo Qin", "Bowen Xing", "Zhihong Zhu", "Dongsheng Chen",
-                     "Min Yang", "Lidong Bing", "Ruifeng Xu", "Jie Tang", "Yuexian Zou"];
+                     "Min Yang", "Lidong Bing", "Ruifeng Xu", "Jie Tang", "Yuexian Zou",
+                     "Xu Sun", "Mu Li"];
 
 let conferences = [
     // AI
