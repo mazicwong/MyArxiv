@@ -1,13 +1,18 @@
-// let titles_type = ["Dataset", "Survey", "Review", "Overview"];
+// ["Dataset", "Survey", "Review", "Overview"];
+let titles_type = [];
+
 let titles_model = ["Transformer", "BERT", "GPT", "GPT3", "GPT4", "GPT5",
                     "ChatGPT", "ChatGLM", "DynaBERT", "GPT3.5", "GPT4", "Large Language Model", "Language Model", "LLM"];
+
 //                     "Prompt", "Self-Supervised", "Multi-modal", "Multimodal", "Sarcasm Detection", 
 //                     "Dialogue System", "Dialogue", "Story", "KBQA", "KGQA", "Knowledge Graph", "Chinese"
 let titles_method = ["Pre-train", "Pretrain", "Pretrained", 
                      "MOE", "Mixture of Expert", "Mixture-of-Expert", "Mixture of Attention",
                      "SLU", "Spoken Language Understanding",
                      "Hugging", "Flash-Attention", "Flash Attention", "Llama", "Megatron", "Megatron-LM"];
+
 let titles =  titles_model + titles_method + titles_type;
+
 let authors_array = ["Yann LeCun", "Geoffrey Hinton", "Yoshua Bengio",
                      "Zhilin Yang", "Xinyu Zhou", "Yuxin Wu", "Jiezhong Qiu", "Zhiqi Huang",
                      "Danqi Chen", "Jie Tang", "Yuexian Zou", "Xu Sun", "Song Han", "Mu Li",
