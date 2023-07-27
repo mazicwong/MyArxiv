@@ -7,7 +7,7 @@ let titles_model = ["Transformer", "BERT", "GPT", "GPT3", "GPT4", "GPT5",
 //                     "Prompt", "Self-Supervised", "Multi-modal", "Multimodal", "Sarcasm Detection", 
 //                     "Dialogue System", "Dialogue", "Story", "KBQA", "KGQA", "Knowledge Graph", "Chinese"
 let titles_method = ["Pre-train", "Pretrain", "Pretrained", 
-                     "MOE", "Mixture of Expert", "Mixture-of-Expert", "Mixture of Attention",
+                     "MOE", "Mixture of Expert", "Mixture-of-Expert", "Mixture of Attention", "Long Context",
                      "SLU", "Spoken Language Understanding",
                      "Hugging", "Flash-Attention", "Flash Attention", "Llama", "Megatron", "Megatron-LM"];
 
