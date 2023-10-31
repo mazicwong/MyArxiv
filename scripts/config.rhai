@@ -6,19 +6,19 @@ let titles_model = ["Transformer", "BERT", "GPT", "GPT3", "GPT4", "GPT5",
 
 //                     "Prompt", "Self-Supervised", "Multi-modal", "Multimodal", "Sarcasm Detection", 
 //                     "Dialogue System", "Dialogue", "Story", "KBQA", "KGQA", "Knowledge Graph", "Chinese"
-let titles_method = ["Pre-train", "Pretrain", "Pretrained", 
-                     "MOE", "Mixture of Expert", "Mixture-of-Expert", "Mixture of Attention", "Long Context",
+let titles_method = ["Pre-train", "Pretrained", "Pretrain",
+                     "MOE", "Mixture of Expert", "Mixture-of-Expert", "Mixture of Attention", "Long Context", "Lossless",
                      "SLU", "Spoken Language Understanding",
                      "Hugging", "Flash-Attention", "Flash Attention", "Llama", "Megatron", "Megatron-LM"];
 
 let titles =  titles_model + titles_method + titles_type;
 
-let authors_array = ["Yann LeCun", "Geoffrey Hinton", "Yoshua Bengio",
-                     "Zhilin Yang", "Xinyu Zhou", "Yuxin Wu", "Jiezhong Qiu", "Zhiqi Huang",
-                     "Danqi Chen", "Jie Tang", "Yuexian Zou", "Xu Sun", "Song Han", "Mu Li",
-                     "Lu Hou", "Haoli Bai", "Xiaoqi Jiao", "Qun Liu", "Lifeng Shang", "Milind Rao", "Anirudh Raju",
-                     "Libo Qin", "Bowen Xing", "Zhihong Zhu", "Dongsheng Chen",
-                     "Min Yang", "Lidong Bing", "Ruifeng Xu"];
+//"Yann LeCun", "Geoffrey Hinton", "Yoshua Bengio", "Mu Li",
+//"Min Yang", "Lidong Bing", "Ruifeng Xu"
+let authors_array = ["Zhilin Yang", "Xinyu Zhou", "Yuxin Wu", "Jiezhong Qiu", "Jianlin Su", "Zhiqi Huang",
+                     "Tri Dao", "Danqi Chen", "Jie Tang", "Song Han", "Yuexian Zou", "Xu Sun",
+                     "Lu Hou", "Haoli Bai", "Xiaoqi Jiao", "Qun Liu", "Lifeng Shang", "Xin Jiang", "Milind Rao", "Anirudh Raju",
+                     "Zhihong Zhu", "Dongsheng Chen", "Xuxin Cheng", "Libo Qin", "Bowen Xing"];
 
 let conferences = [
     // AI
