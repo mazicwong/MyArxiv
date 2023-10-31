@@ -6,19 +6,23 @@ let titles_model = ["Transformer", "BERT", "GPT", "GPT3", "GPT4", "GPT5",
 
 //                     "Prompt", "Self-Supervised", "Multi-modal", "Multimodal", "Sarcasm Detection", 
 //                     "Dialogue System", "Dialogue", "Story", "KBQA", "KGQA", "Knowledge Graph", "Chinese"
-let titles_method = ["Pre-train", "Pretrained", "Pretrain",
-                     "MOE", "Mixture of Expert", "Mixture-of-Expert", "Mixture of Attention", "Long Context", "Lossless",
+//"Pre-train", "pretrained", "Pretrain",
+let titles_method = ["Low-Bitwidth", "Quantization", "PCA", "Sparsity",
+                     "Rotary", "Positional Encoding", "RoPE", "32k", "100k", "128k", "196k", "256k", "400k", "1M", "4M",
+                     "MOE", "Mixture of Expert", "Mixture-of-Expert", "Mixture of Attention", "Long Context", "Long Range", "Lossless",
                      "SLU", "Spoken Language Understanding",
-                     "Hugging", "Flash-Attention", "Flash Attention", "Llama", "Megatron", "Megatron-LM"];
+                     "Hugging", "Flash-Attention", "Flash Attention", "Llama", "Megatron", "Megatron-LM",
+                     "Baichuan", "Minimax", "OpenAI", "Open-AI"];
 
 let titles =  titles_model + titles_method + titles_type;
 
 //"Yann LeCun", "Geoffrey Hinton", "Yoshua Bengio", "Mu Li",
 //"Min Yang", "Lidong Bing", "Ruifeng Xu"
 let authors_array = ["Zhilin Yang", "Xinyu Zhou", "Yuxin Wu", "Jiezhong Qiu", "Jianlin Su", "Zhiqi Huang",
+                     "Mingxing Zhang", "Weiran He", "Xinran Xu", "Jingyuan Liu", "Yutao Zhang", "Xingcheng Yao", "Tong Gao",
                      "Tri Dao", "Danqi Chen", "Jie Tang", "Song Han", "Yuexian Zou", "Xu Sun",
                      "Lu Hou", "Haoli Bai", "Xiaoqi Jiao", "Qun Liu", "Lifeng Shang", "Xin Jiang", "Milind Rao", "Anirudh Raju",
-                     "Zhihong Zhu", "Dongsheng Chen", "Xuxin Cheng", "Libo Qin", "Bowen Xing"];
+                     "Zhihong Zhu", "Dongsheng Chen", "Xuxin Cheng", "Yifeng Xie", "Libo Qin", "Bowen Xing"];
 
 let conferences = [
     // AI
