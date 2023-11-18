@@ -8,6 +8,13 @@ document.onkeydown = function (e) {
     }
 };
 
+document.getElementById("expand-all").addEventListener("click", function () {
+  const detailsElements = document.querySelectorAll("details");
+  detailsElements.forEach((detail) => {
+    detail.open = true;
+  });
+});
+
 /* Switch Theme */
 const toggleSwitch = document.querySelector('.theme-switch input[type="checkbox"]');
 
