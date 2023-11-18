@@ -8,10 +8,13 @@ document.onkeydown = function (e) {
     }
 };
 
-document.getElementById("expandBtn").addEventListener("click", function() {
-    var detailsElements = document.getElementsByTagName("details");
-    for (var i = 0; i < detailsElements.length; i++) {
-        detailsElements[i].open = true;
+// Attach click event handler to the 'Expand All' button
+document.getElementById('expandButton').addEventListener('click', function() {
+    // Get all 'details' elements on the page
+    var detailsList = document.getElementsByTagName('details');
+    // Loop through and set the 'open' property to true for each
+    for (var i = 0; i < detailsList.length; i++) {
+        detailsList[i].open = true;
     }
 });
 
