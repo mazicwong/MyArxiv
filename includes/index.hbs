@@ -126,5 +126,13 @@
         </time>
     </div>
 </footer>
+
+document.getElementById("expand-all").addEventListener("click", function () {
+  const detailsElements = document.querySelectorAll("details");
+  detailsElements.forEach((detail) => {
+    detail.open = true;
+  });
+});
+
 <script src="index.js"></script>
 </html>
