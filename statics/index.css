@@ -353,3 +353,23 @@ footer {
     padding: .2rem .4rem;
     vertical-align: middle;
 }
+
+
+#expandBtn {
+    background-color: #4CAF50; /* Change to any color you like */
+    color: white; /* Text color */
+    padding: 15px 32px; /* Padding around the text */
+    text-align: center; /* Center the text */
+    text-decoration: none; /* No underline */
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    transition: 0.3s; /* Transition effect on hover */
+    border-radius: 8px; /* Rounded corners */
+}
+
+#expandBtn:hover {
+    background-color: #45a049; /* Darker green when you hover */
+    color: white; /* Text color on hover */
+}
