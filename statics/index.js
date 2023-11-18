@@ -9,7 +9,7 @@ document.onkeydown = function (e) {
 };
 
 // Attach click event handler to the 'Expand All' button
-document.getElementById('expandButton').addEventListener('click', function() {
+document.getElementById('expandBtn').addEventListener('click', function() {
     // Get all 'details' elements on the page
     var detailsList = document.getElementsByTagName('details');
     // Loop through and set the 'open' property to true for each
