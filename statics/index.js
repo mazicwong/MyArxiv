@@ -8,11 +8,11 @@ document.onkeydown = function (e) {
     }
 };
 
-document.getElementById("expand-all").addEventListener("click", function () {
-  const detailsElements = document.querySelectorAll("details");
-  detailsElements.forEach((detail) => {
-    detail.open = true;
-  });
+document.getElementById("expandBtn").addEventListener("click", function() {
+    var detailsElements = document.getElementsByTagName("details");
+    for (var i = 0; i < detailsElements.length; i++) {
+        detailsElements[i].open = true;
+    }
 });
 
 /* Switch Theme */
